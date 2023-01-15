@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Didimon</title>
+    <script src="./js/didimon.js"></script>
+    <link rel="stylesheet" href="./estiloscss/estilocss_didimon.css">
+</head>
+<body>
+    <h1 class="titulo">DIDIMON 🔥💦☘️</h1>
+    <section id="seleccionar-mascota">
+        <h2 id="elige">elige tu mascota:</h2>
+
+        <label id="gagumons" for="gagumon">gagumon</label>
+        <input type="radio" name="mascota" id="gagumon"/>
+        
+        <label id="staryuls" for="staryul">staryul</label>
+        <input type="radio" name="mascota" id="staryul"/>
+
+        <label id="volvasurls" for="volvasurl">volvasurl</label>
+        <input type="radio" name="mascota" id="volvasurl"/>
+        
+        <button id="boton-mascota">seleccionar</button>
+
+    </section>
+
+    <section id="seleccionar-ataque">
+        <h2 id="elige">elige tu ataque:</h2>
+        <p class="mascota-jugador">tu mascota <span id="mascota-jugador"></span> tiene <span id="vidas-jugador">3</span> vidas</p>
+        <p class="mascota-enemigo"> la mascota <span id="mascota-enemigo"></span> del  enemigo tiene <span id="vidas-enemigos">3</span> vidas</p>
+        <p>
+            <button id="boton-fuego">fuego🔥</button>
+            <button id="boton-agua">agua 💦</button>
+            <button id="boton-tierra">tierra ☘️</button>
+
+        </p>
+        <section id="mensajes">
+        </section>
+        <section id="reiniciar">
+            <button id="boton-reiniciar">reiniciar</button>
+        </section>
+    </section>
+    
+</body>
+</html>
