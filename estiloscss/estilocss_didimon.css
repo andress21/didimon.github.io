@@ -121,7 +121,7 @@ input{
 #boton-agua{
     margin: 3px;
     padding: 5px;
-    min-width: 104px;
+    width: 104px;
     box-sizing: border-box;
     background-color: #0077b6;
     border: #023e8a solid;
@@ -131,7 +131,7 @@ input{
 #boton-tierra{
     margin: 3px;
     padding: 5px;
-    min-width: 104px;
+    width: 104px;
     box-sizing: border-box;
     background-color: #6a994e;
     border: #772f1a solid;
@@ -141,7 +141,7 @@ input{
 #boton-reiniciar{
     margin: 20px;
     padding: 5px;
-    min-width: 200px;
+    width: 200px;
     box-sizing: border-box;
     background-color: #5c6b73;
     border: #9db4c0 solid;
@@ -151,4 +151,11 @@ input{
 #mensajes{
     background-color: #8ac926;
     border-radius: 20px;
+    margin: 10px;
+}
+#bo{
+    display: flex;
+}
+#muñecos{
+    display: flex;
 }
